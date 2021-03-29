@@ -41,7 +41,6 @@ p {
 	letter-spacing: .2rem;
 	text-align: center;
 }
-
 .make h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
@@ -219,7 +218,7 @@ p {
 	animation: text_reveal_name .5s ease forwards;
 	animation-delay: 3s;
 }
-/*#name h1 span {
+#name h1 span {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -236,7 +235,6 @@ p {
 #services .services {
     padding: 1rem 0 1rem 0;
 }
-
 .services-heading {      						
   font-size: 5rem;
   text-align: center;
@@ -253,6 +251,7 @@ p {
   position: relative;
   perspective: 140rem;
 }
+
 .servicing-image {					
   width: 99%;
   border-radius: 0.4rem 0.4rem 0 0;
@@ -274,56 +273,58 @@ p {
   padding: 3rem 0 5rem 0;
 }
 
-
 /* End Of Services Section */
 
 
+
+
 /* Gallery section */
+
+#gallery .gallery {
+    padding: 1rem 0 1rem 0;
+}
 
 #gallery .gallery-heading {      						
   font-size: 5rem;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 2rem;
-  margin-top: 0rem;
+  margin-top: 2rem;
  }
-#gallery .gallery {
-	flex-direction: column;
-        text-align: center;
-	max-width: 1200px;        
-	padding: 100px 0;
-}
-#gallery .gallery-header h1 {
-	margin-bottom: 0px;
-}
-
-#gallery .all-gallery{
+ #gallery-wrapper {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
+	justify-content: space-evenly;
+  }
+ 
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery img {
+	width: 89%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+  }
+  
+  .responsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+ }
 
-#gallery .car-image {					
-  width: 100%;
-  border-radius: 0.4rem 0.4rem;
-}
 
-#gallery .column2 {
- float: left;
- width: 25%;
- padding: 5px;
-}
-
-/* End Of Gallery section */
-
+/* End of Gallery section */
 
 /* About Section */ 
 
 #about .about {
     flex-direction: column;
     text-align: center;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 1rem 0 1rem 0;
 }
@@ -332,8 +333,8 @@ p {
   font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 1rem;
-  margin-top: 0rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 #about .car-image {					
@@ -346,50 +347,109 @@ p {
  width: 25%;
  padding: 5px;
 }
-
 /* End  Of About Section */
 
-/* contact Section */
-#contact .contact {
-	flex-direction: column;
-	max-width: 1200px;
-	margin: 0 auto;
-}
-#contact .contact-items {
-	width: 400px;
-}
-#contact .contact-item {
-	width: 80%;
-	padding: 20px;
+
+/* Contact Us */
+
+.contact {				
+	padding: 13rem 0 19rem 0;
 	text-align: center;
-	border-radius: 10px;
-	padding: 30px;
-	margin: 30px;
+	background: url(img/contact-us.png) center no-repeat;
+	background-size: cover;
+  }
+  
+  .contact-heading {			
+	font-size: 5rem;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+	color: var(--black-color);
+	text-shadow: 0 1rem 1rem #000;
+	margin-bottom: 5rem;
+  }
+  
+  .contact-form {				
+	width: 70rem;
+	height: 50rem;
+	background-color: rgba(236, 228, 228, 0.92);
+	margin: auto;
+	flex-direction: column;
+	border-radius: 0.4rem;
+	box-shadow: 0 1rem 2rem #000;
+	padding: 5rem;
+  }
+  
+  .input-group {				
+	width: 110%;
 	display: flex;
-	justify-content: center;
-	align-items: center;           
-	box-shadow: 0px 0px 18px 0 #0000002c;
-	transition: .3s ease box-shadow;
-}
-#contact .contact-item:hover {
-	box-shadow: 0px 0px 5px 0 #0000002c;
-}
-#contact .icon {
-	width: 70px;
-	margin: 0 auto;
-	margin-bottom: 10px;
-}
-#contact .contact-info h1 {
-	font-size: 2.5rem;
-	font-weight: 500;
-	margin-bottom: 5px;
-}
-#contact .contact-info h2 {
+	flex-direction: column;
+	margin: 1rem 0;
+	position: relative;
+  }
+  
+  .input-groups {					
+	width: 105%;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .input-groups .input-group {				
+	width: 45.5%;
+  }
+  
+  .input-group input,					
+  .input-group textarea {
+	padding: 4rem 1rem 1rem 1rem;
+	background-color: var(--secondary-color);
+	border: 0.3rem solid var(--secondary-color);
 	font-size: 1.3rem;
-	line-height: 2rem;
+	color: var(--gray-color);
+	letter-spacing: 0.2rem;
+	border-radius: 0.4rem;
+	transition: border 0.4s;
+  }
+  
+  .input-group input:focus,				
+  .input-group textarea:focus {
+	border: 0.2rem solid rgb(39, 38, 39);
+  }
+  
+  .input-group label {					
+	font-size: 1.3rem;
 	font-weight: 500;
-}
-/*End contact Section */
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	color: var(--black-color);
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+  }
+  
+  .form-btn {				
+	width: 100%;
+	padding: 2rem;
+	font-size: 1.7rem;
+	letter-spacing: 0.2rem;
+	margin-top: 1rem;
+	background-color: gray;
+	color: var(--black-color);
+	border-radius: 0.5rem;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.5s;
+  }
+  
+  .form-btn:hover {				
+	background-color: blue;
+  }
+  
+  .input-group textarea {				
+	max-height: 14rem;
+	max-width: 100%;
+  }
+    /* End of Contact */
 
 /* Footer */
 #footer {
@@ -519,7 +579,7 @@ p {
 	/* contact  */
 	#contact .contact {
 		flex-direction: column;
-		padding: 100px 0;
+		padding: 2%;
 		align-items: center;
 		justify-content: center;
 		min-width: 20vh;
