@@ -1,5 +1,6 @@
 # Sampatbraide-third-milestone-project.io
 
+
 ## BESTCAZS
 Bestcazs is a Brand that portrays series of luxurious cars from Mercedes Benz. 
 "Mercedes-Benz is known for producing luxury vehicles and commercial vehicles.
@@ -42,11 +43,6 @@ The website has a branding favicon this is always displayed when a client visits
 And lastly, we have the footer section which contains the social media link as we as the all right reserved.
  
 
- Awe have some feedback which are stories from six people who had visited Romania for various tourist attractions.
- They told us how they enjoyed various sightseeing.
- ![stories.jpg](https://github.com/Sampatbraide/second-milestone-project.io/blob/main/static/images/stories.jpg)
-
-
 ###Links
 *Home link
 *Services link  
@@ -78,7 +74,7 @@ I will have to optimise the website to stand out among its competitors.
 This includes HTML W3Schools, for adhering to the correct HTML syntax
 CSS W3Schools for adhering to the correct CSS syntax
  downloads
-I used this JS programming for creating some logic to the project work
+I used this JS programming for creating some logic for the project work
 
  
 ## Validators
@@ -123,7 +119,7 @@ I also got the inspiration for the project from these websites:
 
 [HALFORDS](https://www.halfords.com/car-servicing/),
 
-[QCDAUTOCENTRES]https://www.qcdautocentres.co.uk/servicing/hybrid-service/),
+[QCDAUTOCENTRES](https://www.qcdautocentres.co.uk/servicing/hybrid-service/),
 
 [MERCEDESBENZ](https://www.mercedes-benz.com/en/company/),
 
@@ -134,14 +130,13 @@ I also got the inspiration for the project from these websites:
 
  
 Images for the Gallery Section from Google  
-[GOOGLE](https://www.google.com/search?q=mercedes+benz&safe/)
+[GOOGLE](https://www.google.com/search?q=mercedes+benz&safe/),
 Images for the Service Section
 [GOOGLE](https://www.google.com/search?q=mercedes+benz+production&safe/)
 
 Note: I am in a very tight end, due to the previous  shortcoming,
- I have been given three months and some weeks to summit all four project which is not possible, I am a family man, who works to take care of my family, I have explained this to the student care team, but things did not work out, I just have to code or do something irrespective of not having the required time to work on my projects. That is why some you will see some lapse in my work, just because I have not had time to go through various programming subjets and concepts.
+ I have been given three months and some weeks to summit all four project which is not possible, I am a family man, who works to take care of my family, I have explained this to the student care team, but things did not work out, I just have to code or do something irrespective of not having the required time to work on my projects. That is why some you will see some lapse in my work, just because I have not had time to go through various programming subjects and concepts.
 
 ## Acknowledgements
 
 I thanks my family and friends for their support.
-
