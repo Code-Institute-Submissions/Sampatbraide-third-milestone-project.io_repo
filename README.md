@@ -35,6 +35,7 @@ The website has a branding favicon this is always displayed when a client visits
 
  The second section is the gallery page, this has several images.
  ![gallerypag1.jpg](https://github.com/Sampatbraide/third-milestone-project.io/blob/main/img/galleryp1.jpg)
+ ![gallerypag2.jpg](https://github.com/Sampatbraide/third-milestone-project.io/blob/main/img/galleryp2.jpg)
 
  The third section is the about page it also has four columns of the car manufacturing process.
  ![aboutpage.jpg](https://github.com/Sampatbraide/third-milestone-project.io/blob/main/img/aboutpage.jpg)
