@@ -31,16 +31,18 @@ The website has a branding favicon this is always displayed when a client visits
  This  Section is considered as the landing page, which has 
 
  The first section is the services section  this is made up of four columns
+ ![servicespage.jpg](https://github.com/Sampatbraide/third-milestone-project.io/blob/main/img/servicespage.jpg)
 
-
- The second section is the gallery page, which has several images.
+ The second section is the gallery page, this has several images.
+ ![gallerypage.jpg](https://github.com/Sampatbraide/third-milestone-project.io/blob/main/img/gallerypage.jpg)
 
  The third section is the about page it also has four columns of the car manufacturing process.
+ ![aboutpage.jpg](https://github.com/Sampatbraide/third-milestone-project.io/blob/main/img/aboutpage.jpg)
 
+ The fourth section is the contact us section which give some great information about Mercdesben Bestcazs
+![contactuspage.jpg](https://github.com/Sampatbraide/third-milestone-project.io/blob/main/img/contactuspage.jpg)
 
- The fourth section is the contact us section which gives some great information about Mercdesben Bestcazs
-
-And lastly, we have the footer section which contains the social media link as we as the all right reserved.
+And lastly we have the footer section which contains the social media link as we as the all right reserved.
  
 
 ###Links
@@ -78,7 +80,7 @@ I used this JS programming for creating some logic for the project work
 
  
 ## Validators
-I used [HTML]  (https://validator.w3.org/) and [CSS]  (https://jigsaw.w3.org/css-validator/) to validate the web document. 
+I used [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) to validate the web document. 
 Minor errors appeared from its content and I made some corrections.
 
  
